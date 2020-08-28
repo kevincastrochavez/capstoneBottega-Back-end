@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Black Blouse",
+    "id": 1,
+    "price": "25.00",
+    "category": "blouses",
+    "picture": "blouse-1.jpg",
+    "disccount": "20"
+  },
+  {
+    "name": "Fun Blouse",
+    "price": "17.50",
+    "category": "blouses",
+    "picture": "blouse-2.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "White Blouse",
+    "price": "19.50",
+    "category": "blouses",
+    "picture": "blouse-3.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "Coral Flower Blouse",
+    "price": "27.00",
+    "category": "blouses",
+    "picture": "blouse-4.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Long Sleeve Blouse",
+    "price": "23.50",
+    "category": "blouses",
+    "picture": "blouse-5.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Pink Blouse",
+    "price": "15.00",
+    "category": "blouses",
+    "picture": "blouse-6.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Yireh Blouse",
+    "price": "12.00",
+    "category": "blouses",
+    "picture": "blouse-7.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Rose Blouse",
+    "price": "18.00",
+    "category": "blouses",
+    "picture": "blouse-8.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Flower Dress",
+    "price": "15.00",
+    "category": "dresses",
+    "picture": "dress-1.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "Flower Pink Dress",
+    "price": "24.00",
+    "category": "dresses",
+    "picture": "dress-2.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Long Dress",
+    "price": "25.00",
+    "category": "dresses",
+    "picture": "dress-3.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Green Dress",
+    "price": "28.50",
+    "category": "dresses",
+    "picture": "dress-4.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Tight Dress",
+    "price": "26.00",
+    "category": "dresses",
+    "picture": "dress-5.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Panter Dress",
+    "price": "27.50",
+    "category": "dresses",
+    "picture": "dress-6.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Princess Dress",
+    "price": "35.00",
+    "category": "dresses",
+    "picture": "dress-7.jpg",
+    "disccount": "25"
+  },
+  {
+    "name": "White Flower Dress",
+    "price": "24.00",
+    "category": "dresses",
+    "picture": "dress-8.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Luxurious Hat",
+    "price": "30.50",
+    "category": "hats",
+    "picture": "hat-1.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "Chilling Hat",
+    "price": "12.00",
+    "category": "hats",
+    "picture": "hat-2.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Casual Hat",
+    "price": "25.00",
+    "category": "hats",
+    "picture": "hat-3.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Paper Hat",
+    "price": "5.00",
+    "category": "hats",
+    "picture": "hat-4.jpg",
+    "disccount": "50"
+  },
+  {
+    "name": "Sport Hat",
+    "price": "2.00",
+    "category": "hats",
+    "picture": "hat-5.jpg",
+    "disccount": "1"
+  },
+  {
+    "name": "Cowboy Hat",
+    "price": "21.00",
+    "category": "hats",
+    "picture": "hat-6.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Brown Hat",
+    "price": "25.00",
+    "category": "hats",
+    "picture": "hat-7.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Cold Hat",
+    "price": "14.50",
+    "category": "hats",
+    "picture": "hat-8.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Red Winter Jacket",
+    "price": "30.00",
+    "category": "jackets",
+    "picture": "jacket-1.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Winter Jacket",
+    "price": "55.00",
+    "category": "jackets",
+    "picture": "jacket-2.jpg",
+    "disccount": "30"
+  },
+  {
+    "name": "P78 Jacket",
+    "price": "32.00",
+    "category": "jackets",
+    "picture": "jacket-3.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Frutta Jacket",
+    "price": "29.00",
+    "category": "jackets",
+    "picture": "jacket-4.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Nike Jacket",
+    "price": "25.00",
+    "category": "jackets",
+    "picture": "jacket-5.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Paris Jacket",
+    "price": "37.00",
+    "category": "jackets",
+    "picture": "jacket-6.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "Brown Jacket",
+    "price": "32.00",
+    "category": "jackets",
+    "picture": "jacket-7.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Black Jacket",
+    "price": "35.00",
+    "category": "jackets",
+    "picture": "jacket-8.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "Cherry Skirt",
+    "price": "20.00",
+    "category": "skirts",
+    "picture": "skirt-1.jpg",
+    "disccount": "20"
+  },
+  {
+    "name": "Pink Skirt",
+    "price": "22.00",
+    "category": "skirts",
+    "picture": "skirt-2.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Blue Skirt",
+    "price": "18.00",
+    "category": "skirts",
+    "picture": "skirt-3.jpg",
+    "disccount": "5"
+  },
+  {
+    "name": "Black Skirt",
+    "price": "15.00",
+    "category": "skirts",
+    "picture": "skirt-4.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Dark Skirt",
+    "price": "23.00",
+    "category": "skirts",
+    "picture": "skirt-5.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Jeans Skirt",
+    "price": "25.00",
+    "category": "skirts",
+    "picture": "skirt-6.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Stripe Skirt",
+    "price": "20.00",
+    "category": "skirts",
+    "picture": "skirt-7.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Red Skirt",
+    "price": "20.00",
+    "category": "skirts",
+    "picture": "skirt-8.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Pack-5 Socks",
+    "price": "40.00",
+    "category": "socks",
+    "picture": "socks-1.jpg",
+    "disccount": "20"
+  },
+  {
+    "name": "Gray Socks",
+    "price": "8.00",
+    "category": "socks",
+    "picture": "socks-2.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Mouth Socks",
+    "price": "10.00",
+    "category": "socks",
+    "picture": "socks-3.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Adidas Socks",
+    "price": "10.00",
+    "category": "socks",
+    "picture": "socks-4.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Xmas Socks",
+    "price": "15.00",
+    "category": "socks",
+    "picture": "socks-5.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Fun Socks",
+    "price": "14.00",
+    "category": "socks",
+    "picture": "socks-6.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Short T-shirt",
+    "price": "20.00",
+    "category": "t-shirts",
+    "picture": "tshirt-1.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Red T-shirt",
+    "price": "18.00",
+    "category": "t-shirts",
+    "picture": "tshirt-2.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Potter T-shirt",
+    "price": "22.00",
+    "category": "t-shirts",
+    "picture": "tshirt-3.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Supreme T-shirt",
+    "price": "25.00",
+    "category": "t-shirts",
+    "picture": "tshirt-4.jpg",
+    "disccount": "10"
+  },
+  {
+    "name": "Green",
+    "price": "30.00",
+    "category": "t-shirts",
+    "picture": "tshirt-5.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Ugly T-shirt",
+    "price": "5.00",
+    "category": "t-shirts",
+    "picture": "tshirt-6.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Invisible",
+    "price": "45.00",
+    "category": "t-shirts",
+    "picture": "tshirt-7.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "White T-shirt",
+    "price": "15.00",
+    "category": "t-shirts",
+    "picture": "tshirt-8.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Casio Watch",
+    "price": "40.00",
+    "category": "watches",
+    "picture": "watch-1.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Touraine Watch",
+    "price": "60.00",
+    "category": "watches",
+    "picture": "watch-2.jpg",
+    "disccount": "20"
+  },
+  {
+    "name": "Wellington Watch",
+    "price": "140.00",
+    "category": "watches",
+    "picture": "watch-3.jpg",
+    "disccount": "15"
+  },
+  {
+    "name": "Christie Watch",
+    "price": "180.00",
+    "category": "watches",
+    "picture": "watch-4.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Pink Watch",
+    "price": "50.00",
+    "category": "watches",
+    "picture": "watch-5.jpg",
+    "disccount": ""
+  },
+  {
+    "name": "Fossil Watch",
+    "price": "120.00",
+    "category": "watches",
+    "picture": "watch-6.jpg",
+    "disccount": "10"
+  }
+]
