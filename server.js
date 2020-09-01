@@ -8,7 +8,7 @@ const app = express();
 
 const products = JSON.parse(fs.readFileSync("./products.json"));
 
-app.get("/api/v1/products", (req, res) => {
+const getAllProducts = (req, res) => {
   res.status(200).json({
     status: "success",
     results: products.length,
@@ -16,7 +16,9 @@ app.get("/api/v1/products", (req, res) => {
       products,
     },
   });
-});
+};
+
+app.route("/api/v1/products").get(getAllProducts);
 
 const DB = process.env.DATABASE.replace(
   "<PASSWORD>",
