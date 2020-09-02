@@ -1,31 +1,48 @@
-exports.getAllUsers = (req, res) => {
+const User = require("../models/userModel");
+
+exports.getAllUsers = async (req, res) => {
+  const users = await User.find();
+
   res.status(200).json({
     status: "success",
-    results: products.length,
-    data: {},
+    data: {
+      users,
+    },
   });
 };
 
-exports.createUser = (req, res) => {
+exports.createUser = async (req, res) => {
+  const newUser = await User.create(req.body);
+
   res.status(200).json({
     status: "success",
-    results: products.length,
-    data: {},
+    data: {
+      user: newUser,
+    },
   });
 };
 
-exports.getUser = (req, res) => {
+exports.getUser = async (req, res) => {
+  const user = await User.findById(req.params.id);
+
   res.status(200).json({
     status: "success",
-    results: products.length,
-    data: {},
+    data: {
+      user,
+    },
   });
 };
 
-exports.updateUser = (req, res) => {
+exports.updateUser = async (req, res) => {
+  const user = await User.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true,
+  });
+
   res.status(200).json({
     status: "success",
-    results: products.length,
-    data: {},
+    data: {
+      user,
+    },
   });
 };
