@@ -2,7 +2,7 @@ const fs = require("fs");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 
-const Product = require("./models/productModel");
+const Product = require("../models/productModel");
 
 dotenv.config({ path: "./config.env" });
 
@@ -19,7 +19,9 @@ mongoose
   })
   .then(() => console.log("Succesful Connection"));
 
-const products = JSON.parse(fs.readFileSync("./products.json", "utf-8"));
+const products = JSON.parse(
+  fs.readFileSync(`${__dirname}/products.json`, "utf-8")
+);
 
 const importData = async () => {
   try {
