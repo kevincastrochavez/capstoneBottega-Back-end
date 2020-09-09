@@ -59,6 +59,12 @@ exports.signin = catchAsync(async (req, res, next) => {
   }
 
   createSendToken(user, 200, res);
+  const token = signToken(user._id);
+
+  res.status(200).json({
+    status: "success",
+    token,
+  });
 });
 
 exports.protect = catchAsync(async (req, res, next) => {
@@ -68,6 +74,8 @@ exports.protect = catchAsync(async (req, res, next) => {
     req.headers.authorization.startsWith("Bearer")
   ) {
     token = req.headers.authorization.split(" ")[1];
+  } else if (req.cookies.jwt) {
+    token = req.cookies.jwt;
   }
 
   if (!token) {
@@ -95,6 +103,7 @@ exports.protect = catchAsync(async (req, res, next) => {
   }
 
   req.user = currentUser;
+  res.locals.user = currentUser;
   next();
 });
 

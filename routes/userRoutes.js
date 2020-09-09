@@ -10,11 +10,17 @@ router.post("/signin", authController.signin);
 router.post("/forgotPassword", authController.forgotPassword);
 router.patch("/resetPassword/:token", authController.resetPassword);
 
-router.patch(authController.protect);
+router.use(authController.protect);
 
 router.patch("/updateMyPassword", authController.updatePassword);
 router.get("/me", userController.getMe, userController.getUser);
+router.patch(
+  "/updateMe",
+  userController.uploadUserPhoto,
+  userController.updateMe
+);
 
+// ADMIN
 router
   .route("/")
   .get(userController.getAllUsers)
