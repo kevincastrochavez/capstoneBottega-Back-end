@@ -2,361 +2,361 @@
   {
     "name": "Black Blouse",
     "price": "25.00",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-1.jpg"
   },
   {
     "name": "Fun Blouse",
     "price": "17.50",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-2.jpg"
   },
   {
     "name": "White Blouse",
     "price": "19.50",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-3.jpg"
   },
   {
     "name": "Coral Flower Blouse",
     "price": "27.00",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-4.jpg"
   },
   {
     "name": "Long Sleeve Blouse",
     "price": "23.50",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-5.jpg"
   },
   {
     "name": "Pink Blouse",
     "price": "15.00",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-6.jpg"
   },
   {
     "name": "Yireh Blouse",
     "price": "12.00",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-7.jpg"
   },
   {
     "name": "Rose Blouse",
     "price": "18.00",
-    "category": "blouses",
+    "category": ["All", "Women", "Blouses"],
     "picture": "blouse-8.jpg"
   },
   {
     "name": "Flower Dress",
     "price": "15.00",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-1.jpg"
   },
   {
     "name": "Flower Pink Dress",
     "price": "24.00",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-2.jpg"
   },
   {
     "name": "Long Dress",
     "price": "25.00",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-3.jpg"
   },
   {
     "name": "Green Dress",
     "price": "28.50",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-4.jpg"
   },
   {
     "name": "Tight Dress",
     "price": "26.00",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-5.jpg"
   },
   {
     "name": "Panter Dress",
     "price": "27.50",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-6.jpg"
   },
   {
     "name": "Princess Dress",
     "price": "35.00",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-7.jpg"
   },
   {
     "name": "White Flower Dress",
     "price": "24.00",
-    "category": "dresses",
+    "category": ["All", "Women", "Dresses"],
     "picture": "dress-8.jpg"
   },
   {
     "name": "Luxurious Hat",
     "price": "30.50",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-1.jpg"
   },
   {
     "name": "Chilling Hat",
     "price": "12.00",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-2.jpg"
   },
   {
     "name": "Casual Hat",
     "price": "25.00",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-3.jpg"
   },
   {
     "name": "Paper Hat",
     "price": "5.00",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-4.jpg"
   },
   {
     "name": "Sport Hat",
     "price": "2.00",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-5.jpg"
   },
   {
     "name": "Cowboy Hat",
     "price": "21.00",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-6.jpg"
   },
   {
     "name": "Brown Hat",
     "price": "25.00",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-7.jpg"
   },
   {
     "name": "Cold Hat",
     "price": "14.50",
-    "category": "hats",
+    "category": ["All", "Men", "Hats"],
     "picture": "hat-8.jpg"
   },
   {
     "name": "Red Winter Jacket",
     "price": "30.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-1.jpg"
   },
   {
     "name": "Winter Jacket",
     "price": "55.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-2.jpg"
   },
   {
     "name": "P78 Jacket",
     "price": "32.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-3.jpg"
   },
   {
     "name": "Frutta Jacket",
     "price": "29.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-4.jpg"
   },
   {
     "name": "Nike Jacket",
     "price": "25.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-5.jpg"
   },
   {
     "name": "Paris Jacket",
     "price": "37.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-6.jpg"
   },
   {
     "name": "Brown Jacket",
     "price": "32.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-7.jpg"
   },
   {
     "name": "Black Jacket",
     "price": "35.00",
-    "category": "jackets",
+    "category": ["All", "Men", "Jackets"],
     "picture": "jacket-8.jpg"
   },
   {
     "name": "Cherry Skirt",
     "price": "20.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-1.jpg"
   },
   {
     "name": "Pink Skirt",
     "price": "22.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-2.jpg"
   },
   {
     "name": "Blue Skirt",
     "price": "18.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-3.jpg"
   },
   {
     "name": "Black Skirt",
     "price": "15.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-4.jpg"
   },
   {
     "name": "Dark Skirt",
     "price": "23.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-5.jpg"
   },
   {
     "name": "Jeans Skirt",
     "price": "25.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-6.jpg"
   },
   {
     "name": "Stripe Skirt",
     "price": "20.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-7.jpg"
   },
   {
     "name": "Red Skirt",
     "price": "20.00",
-    "category": "skirts",
+    "category": ["All", "Women", "Skirts"],
     "picture": "skirt-8.jpg"
   },
   {
     "name": "Pack-5 Socks",
     "price": "40.00",
-    "category": "socks",
+    "category": ["All", "Socks"],
     "picture": "socks-1.jpg"
   },
   {
     "name": "Gray Socks",
     "price": "8.00",
-    "category": "socks",
+    "category": ["All", "Socks"],
     "picture": "socks-2.jpg"
   },
   {
     "name": "Mouth Socks",
     "price": "10.00",
-    "category": "socks",
+    "category": ["All", "Socks"],
     "picture": "socks-3.jpg"
   },
   {
     "name": "Adidas Socks",
     "price": "10.00",
-    "category": "socks",
+    "category": ["All", "Socks"],
     "picture": "socks-4.jpg"
   },
   {
     "name": "Xmas Socks",
     "price": "15.00",
-    "category": "socks",
+    "category": ["All", "Socks"],
     "picture": "socks-5.jpg"
   },
   {
     "name": "Fun Socks",
     "price": "14.00",
-    "category": "socks",
+    "category": ["All", "Socks"],
     "picture": "socks-6.jpg"
   },
   {
     "name": "Short T-shirt",
     "price": "20.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-1.jpg"
   },
   {
     "name": "Red T-shirt",
     "price": "18.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-2.jpg"
   },
   {
     "name": "Potter T-shirt",
     "price": "22.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-3.jpg"
   },
   {
     "name": "Supreme T-shirt",
     "price": "25.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-4.jpg"
   },
   {
     "name": "Green",
     "price": "30.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-5.jpg"
   },
   {
     "name": "Ugly T-shirt",
     "price": "5.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-6.jpg"
   },
   {
     "name": "Invisible",
     "price": "45.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-7.jpg"
   },
   {
     "name": "White T-shirt",
     "price": "15.00",
-    "category": "t-shirts",
+    "category": ["All", "Men", "T-Shirts"],
     "picture": "tshirt-8.jpg"
   },
   {
     "name": "Casio Watch",
     "price": "40.00",
-    "category": "watches",
+    "category": ["All", "Watches"],
     "picture": "watch-1.jpg"
   },
   {
     "name": "Touraine Watch",
     "price": "60.00",
-    "category": "watches",
+    "category": ["All", "Watches"],
     "picture": "watch-2.jpg"
   },
   {
     "name": "Wellington Watch",
     "price": "140.00",
-    "category": "watches",
+    "category": ["All", "Watches"],
     "picture": "watch-3.jpg"
   },
   {
     "name": "Christie Watch",
     "price": "180.00",
-    "category": "watches",
+    "category": ["All", "Watches"],
     "picture": "watch-4.jpg"
   },
   {
     "name": "Pink Watch",
     "price": "50.00",
-    "category": "watches",
+    "category": ["All", "Watches"],
     "picture": "watch-5.jpg"
   },
   {
     "name": "Fossil Watch",
     "price": "120.00",
-    "category": "watches",
+    "category": ["All", "Watches"],
     "picture": "watch-6.jpg"
   }
 ]
