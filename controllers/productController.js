@@ -1,16 +1,12 @@
 const fs = require("fs");
 const catchAsync = require("../catchAsync");
+const Product = require("../models/productModel");
+const factory = require("./handleFactory");
 
 const products = JSON.parse(
   fs.readFileSync(`${__dirname}/../data/products.json`)
 );
 
-exports.getAllProducts = catchAsync(async (req, res, next) => {
-  res.status(200).json({
-    status: "success",
-    results: products.length,
-    data: {
-      products,
-    },
-  });
-});
+exports.getAllProducts = factory.getAll(Product);
+
+exports.getProductById = factory.getOne(Product);
