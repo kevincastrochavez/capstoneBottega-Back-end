@@ -1,11 +1,10 @@
-const fs = require("fs");
-const catchAsync = require("../catchAsync");
+// const fs = require("fs");
 const Product = require("../models/productModel");
 const factory = require("./handleFactory");
 
-const products = JSON.parse(
-  fs.readFileSync(`${__dirname}/../data/products.json`)
-);
+// const products = JSON.parse(
+//   fs.readFileSync(`${__dirname}/../data/products.json`)
+// );
 
 exports.getAllProducts = factory.getAll(Product);
 
