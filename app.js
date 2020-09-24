@@ -10,10 +10,13 @@ const AppError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
 const userRouter = require("./routes/userRoutes");
 const productRouter = require("./routes/productsRoutes");
+const paymentRouter = require("./routes/paymentRoutes");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: true }));
+
+app.use(express.json());
 
 app.options("*", cors());
 
@@ -31,6 +34,7 @@ app.use(compression());
 
 app.use("/api/v1/users", userRouter);
 app.use("/api/v1/products", productRouter);
+app.use("/api/v1/payments", paymentRouter);
 
 app.all("*", (req, res, next) => {
   next(new AppError(`Can not find ${req.originalUrl} on this server!`, 404));
