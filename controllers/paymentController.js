@@ -1,11 +1,8 @@
 const stripe = require("stripe")(process.env.SECRET_KEY_STRIPE);
 const catchAsync = require("../catchAsync");
 
-exports.pay = (req, res) => res.status(200).send("Hello World");
-
 exports.paymentCreate = catchAsync(async (req, res) => {
   const { total } = req.query;
-  console.log("Payment Request Received", total);
 
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,
