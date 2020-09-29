@@ -6,6 +6,6 @@ const factory = require("./handleFactory");
 //   fs.readFileSync(`${__dirname}/../data/products.json`)
 // );
 
+exports.createProduct = factory.createOne(Product);
 exports.getAllProducts = factory.getAll(Product);
-
 exports.getProductById = factory.getOne(Product);
