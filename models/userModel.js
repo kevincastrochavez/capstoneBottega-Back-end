@@ -24,11 +24,26 @@ const userSchema = new mongoose.Schema({
   passwordChangedAt: Date,
   passwordResetToken: String,
   passwordResetExpires: Date,
-  address1: String,
-  address2: String,
-  city: String,
-  zipcode: String,
-  country: String,
+  address1: {
+    type: String,
+    default: "3912 Executive Pkwy 220",
+  },
+  address2: {
+    type: String,
+    default: "",
+  },
+  city: {
+    type: String,
+    default: "Lehi, UT",
+  },
+  zipcode: {
+    type: String,
+    default: "84043",
+  },
+  country: {
+    type: String,
+    default: "United States",
+  },
 });
 
 userSchema.pre("save", async function (next) {
